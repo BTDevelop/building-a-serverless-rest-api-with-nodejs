@@ -12,7 +12,7 @@ module.exports = connectToDatabase = () => {
   return mongoose.connect("mongodb+srv://parklab-user:EzxE2u66yyDNPPE5@parklab-shared-cluster.mjnyy.mongodb.net/parklab-dev",{
     // useNewUrlParser: true
     // useUnifiedTopology: true
-    // useFindAndModify: false,
+    useFindAndModify: false
     // useCreateIndex: true
     })
     .then(db => { 
