@@ -7,13 +7,13 @@
     "offline": "sls offline start --skipCacheInvalidation"
   },
   "keywords": [],
-  "author": "Adnan Rahić",
+  "author": "Test",
   "license": "MIT",
   "devDependencies": {
-    "serverless-offline": "^3.16.0"
+    "serverless-offline": "^8.0.0"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
-    "mongoose": "^5.0.0-rc0"
+    "mongoose": "^5.13.5"
   }
 }
